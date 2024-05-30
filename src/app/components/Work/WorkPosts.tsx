@@ -41,9 +41,9 @@ const WorkPosts = ({
             </DialogContent>
           </Dialog>
         </div>
-        <div className="md:ml-6">
+        <div className="md:ml-6 ">
           <div>
-            <h1>{title}</h1>
+            <h1 className="text-xl font-bold">{title}</h1>
           </div>
           <div className="flex items-center">
             <h1 className="mr-6 text-white bg-blue-900 rounded-2xl p-1">
