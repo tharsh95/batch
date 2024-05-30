@@ -3,9 +3,10 @@ import { Menu, MenuIcon, X } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
 import ThemeSwitch from "../ThemeSwitch";
+import { usePathname } from "next/navigation";
 
 const Nav = () => {
-  
+  const router = usePathname()
   const [open, setOpen] = useState(false);
   const toggle = () => {
     setOpen(!open);
@@ -20,10 +21,10 @@ const Nav = () => {
           </button>
         </div>
         <ul className="hidden md:flex space-x-4">
-          <li className="py-2">
+          <li className={`${router==="/blog"?'text-orange-400':""} py-2`}>
             <Link href="/blog">Blog</Link>
           </li>
-          <li className="py-2">
+          <li className={`${router==="/"?'text-orange-400':""} py-2`}>
             <Link href="/">Works</Link>
           </li>
           <li className="py-2">
@@ -37,10 +38,10 @@ const Nav = () => {
       {open && (
         <>
           <ul className="md:hidden flex-col  ">
-            <li className="py-2">
+            <li className={`${router==="/blog"?'text-orange-400':""} py-2`}>
               <Link href="/blog">Blog</Link>
             </li>
-            <li className="py-2">
+            <li className={`${router==="/"?'text-orange-400':""} py-2`}>
               <Link href="/">Works</Link>
             </li>
             <li className="py-2">
