@@ -1,0 +1,94 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "title": "Understanding React Hooks",
+      "date": "2023-04-12",
+      "author": "Jane Doe",
+      "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+      "thumbnail": "/Rectangle.png"
+    },
+    {
+      "id": 2,
+      "title": "Understanding React Hooks",
+      "date": "2023-04-12",
+      "author": "Jane Doe",
+      "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+      "thumbnail": "/Rectangle.png"
+    },
+    {
+      "id": 3,
+      "title": "Understanding React Hooks",
+      "date": "2023-04-12",
+      "author": "Jane Doe",
+      "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+      "thumbnail": "/Rectangle 32.png"
+    },
+    {
+      "id": 4,
+      "title": "Understanding React Hooks",
+      "date": "2023-04-12",
+      "author": "Jane Doe",
+      "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+      "thumbnail": "/Rectangle.png"
+    },
+    {
+      "id": 5,
+      "title": "Understanding React Hooks",
+      "date": "2023-04-12",
+      "author": "Jane Doe",
+      "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+      "thumbnail": "/Rectangle.png"
+    },
+    {
+      "id": 6,
+      "title": "Next.js vs. Gatsby",
+      "date": "2023-05-08",
+      "author": "John Smith",
+      "description": "An in-depth comparison between Next.js and Gatsby for building static and dynamic websites.",
+      "thumbnail": "/Rectangle.png"
+    }
+  ],
+  "work": [
+    {
+      "id": 1,
+      "title": "Project Management in Agile",
+      "date": "2023",
+      "author": "Alice Johnson",
+      "description": "An overview of effective project management techniques in agile development environments.",
+      "thumbnail": "/Rectangle 34.png"
+    },
+    {
+      "id": 2,
+      "title": "Project Management in Agile",
+      "date": "2023",
+      "author": "Alice Johnson",
+      "description": "An overview of effective project management techniques in agile development environments.",
+      "thumbnail": "/Rectangle 40.png"
+    },
+    {
+      "id": 3,
+      "title": "Project Management in Agile",
+      "date": "2023",
+      "author": "Alice Johnson",
+      "description": "An overview of effective project management techniques in agile development environments.",
+      "thumbnail": "/Rectangle 32.png"
+    },
+    {
+      "id": 4,
+      "title": "Product Management in Agile",
+      "date": "2023",
+      "author": "Alice Johnson",
+      "description": "An overview of effective project management techniques in agile development environments.",
+      "thumbnail": "/Rectangle.png"
+    },
+    {
+      "id":5 ,
+      "title": "Project Management in Agile",
+      "date": "2023",
+      "author": "Alice Johnson",
+      "description": "An overview of effective project management techniques in agile development environments.",
+      "thumbnail": "/Rectangle 32.png"
+    }
+  ]
+}
